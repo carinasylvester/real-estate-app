@@ -10,7 +10,7 @@ import { BsGridFill } from 'react-icons/bs';
 import { GoVerified } from 'react-icons/go';
 
 // images
-import DefaultImage from '../assets/images/house.jpg';
+import DefaultImage from '../assets/images/house.jpeg';
 
 const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, baths, area, agency, isVerified, externalID  } }) => (
   <Link href={`/property/${externalID}`} passHref>
